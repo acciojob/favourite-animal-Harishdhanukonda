@@ -8,9 +8,38 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	 <h1>My Favorite Animal</h1>   
+	  <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .image-container {
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .description {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
 
-  <img src="path/to/your/favorite/animal.jpg" alt="A playful Panda" />
+    <div class="image-container">
+        <img src="https://example.com/panda.jpg" alt="A cute panda sitting in a tree">
+        <div class="description">My favorite animal is the panda!</div>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
